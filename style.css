@@ -365,8 +365,8 @@ section{
     border-radius: 10px;
     box-shadow: 0 2px 20px rgba(0,0,0,0.3);
     overflow: hidden;
-    width: 250px;   
-    height: 250px;
+    min-width: 200px;   
+    min-height: 250px;
     z-index: 1;
     transition: all 0.5s ease;
 }
@@ -386,12 +386,12 @@ section{
 }
 .blockade .block .block-header i
 {
-    font-size: 80px;
+    font-size: 70px;
     color: var(--main-color);
 }
 .blockade .block .block-header h3
 {
-    font-size:25px;
+    font-size: 20px;
     color: white;
     text-align: center;
 }
@@ -406,6 +406,7 @@ section{
 }
 .blockade .block-body p
 {
+    margin-top: 15px;
     font-size: 20px;
     color: white;
     text-align: center;
